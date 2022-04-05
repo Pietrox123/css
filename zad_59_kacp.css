@@ -1,0 +1,18 @@
+A 
+{
+font-size: 18pt;
+text-decoration: none; <!- brak dodatkowych efektów podczas najechania kursorem myszy Piotr Kacprzycki->
+}
+A:link 
+{
+color: blue;
+}
+A:visited 
+{
+color: green;
+}
+A:hover 
+{
+color: red;
+text-decoration: underline;  <!- podkreśla naznaczony wskaźnikiem myszy link na czerwono Piotr Kacprzycki->
+}

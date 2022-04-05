@@ -1,0 +1,19 @@
+ DIV{
+	 background: green;
+ }
+ DIV#blok1kacprzycki:hover {   /* po najechaniu kursorem powoduje nadanie cech które są przypisane tu w tym pliku */
+ background: red;
+ font-size: 19mm;
+ width : 610px;
+ }
+ DIV#blok2kacprzycki:hover {
+ background: gold;
+ font-size: 19mm;
+ width : 610px;
+ }
+ DIV#blok3kacprzycki:hover {
+ background: silver;
+ font-size: 19mm;
+ width : 610px;
+ }
+ 
