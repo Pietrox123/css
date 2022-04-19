@@ -1,0 +1,46 @@
+p
+ {
+ color:navy;
+ font-size:30pt;
+ }
+p:first-letter
+ {
+ color:red;
+ font-size:100pt;
+ }
+ p
+ {
+ color:navy;
+ font-size:12pt;
+ }
+p:first-line
+ {
+ color:red;
+ font-size:20pt;
+ font-weight:bold;
+ }
+
+ p:before
+ {
+ content:"TO SĄ ĆWICZENIA";
+ font-size:15pt;
+ font-style:italic; 
+ font-weight:bold;
+ }
+p:after
+ {
+ content:"AUTOR Król Lew";
+ font-size:15pt;
+ font-style:italic;
+ font-weight:bold;
+ }
+ H1
+ {
+ color:navy;
+ font-size:30pt;
+ }
+H1:first-letter
+ {
+ color:red;
+ font-size:100pt;
+ }

@@ -1,0 +1,41 @@
+ DIV#pierwszy_kacprzycki { 
+ background: lime;
+ font-size: 10pt;
+ width : 740px;
+ margin-left: auto;
+ margin-right: auto;
+ border-top-left-radius: 13mm;
+ border-top-right-radius: 13mm;
+ border-bottom-right-radius: 13mm;
+ border-bottom-left-radius: 13mm;
+ border-style: solid;
+ border-color: black;
+ border: 3px solid black;
+ }
+ DIV#drugi_kacprzycki {
+ background: royalblue;
+ font-size: 10pt;
+ width : 940px;
+ margin-left: auto;
+ margin-right: auto;
+ border-top-left-radius: 17mm;
+ border-top-right-radius: 17mm;
+ border-bottom-right-radius: 17mm;
+ border-bottom-left-radius: 17mm;
+ border: 5px solid navy;
+ }
+ DIV#trzeci_kacprzycki {
+ background: pink;
+ font-size: 10pt;
+ width : 1140px;
+ border-top-left-radius: 8mm;
+ border-top-right-radius: 8mm;
+ border-bottom-right-radius: 8mm;
+ border-bottom-left-radius: 8mm;
+ border: 7px solid purple;
+ }
+ p:first-child 
+ {
+	font-size:9mm;
+	font-style: italic;
+	} 

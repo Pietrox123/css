@@ -1,0 +1,69 @@
+<center><textarea cols=100 rows=80>
+<html>
+<head>
+<title>Piotr Kacprzycki 3f</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <LINK href="zad_65_kacp.css" rel="stylesheet"
+type="text/CSS">
+</head>
+<body>
+<h1>Zastosowanie pseudoelement :first-letter z innymi znacznikami. 
+Przykład z nagłówkiem stopnia pierwszego.
+</h1>
+ <p>Przykładowy arkusz spowoduje powiększenie pierwszej litery do wielkości 100 punktów i 
+nadanie jej koloru czerwonego.</p>
+
+ </body>
+</html>
+
+
+
+
+
+p
+ {
+ color:navy;
+ font-size:30pt;
+ }
+p:first-letter
+ {
+ color:red;
+ font-size:100pt;
+ }
+ p
+ {
+ color:navy;
+ font-size:12pt;
+ }
+p:first-line
+ {
+ color:red;
+ font-size:20pt;
+ font-weight:bold;
+ }
+
+ p:before
+ {
+ content:"TO SĄ ĆWICZENIA";
+ font-size:15pt;
+ font-style:italic; 
+ font-weight:bold;
+ }
+p:after
+ {
+ content:"AUTOR Król Lew";
+ font-size:15pt;
+ font-style:italic;
+ font-weight:bold;
+ }
+ H1
+ {
+ color:navy;
+ font-size:30pt;
+ }
+H1:first-letter
+ {
+ color:red;
+ font-size:100pt;
+ }
+ </center></textarea>
